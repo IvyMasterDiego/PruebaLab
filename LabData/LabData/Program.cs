@@ -11,7 +11,8 @@ namespace LabWork
         public static string file;
         static void Main(string[] args)
         {
-            file = @"C:\Users\diego\OneDrive\Desktop\INTEC\Programacion2\TareaLab\Datos.csv";
+            //file = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, args[0]);
+            file = @"C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\Datos.csv";
             var newFile = !(File.Exists(file));
             if (newFile)
             {
@@ -60,6 +61,7 @@ namespace LabWork
                 goto ageInput;
             Console.Write("Contraseña: ");
             var password = HidePassword();
+            var test = password;
             Console.Write("Confirmar Contraseña: ");
             var confirmPswr = HidePassword();
             if ((string.IsNullOrEmpty(password)) || !(password.Equals(confirmPswr)))

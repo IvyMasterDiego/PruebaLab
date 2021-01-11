@@ -8,3 +8,13 @@ C:\Users\diego\OneDrive\Desktop\INTEC\Programacion2\TareaLab\LabData\LabData\bin
 C:\Users\diego\OneDrive\Desktop\INTEC\Programacion2\TareaLab\LabData\LabData\obj\Debug\LabData.csproj.CopyComplete
 C:\Users\diego\OneDrive\Desktop\INTEC\Programacion2\TareaLab\LabData\LabData\obj\Debug\LabData.exe
 C:\Users\diego\OneDrive\Desktop\INTEC\Programacion2\TareaLab\LabData\LabData\obj\Debug\LabData.pdb
+C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\bin\Debug\LabData.exe.config
+C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\bin\Debug\LabData.exe
+C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\bin\Debug\LabData.pdb
+C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\bin\Debug\System.ValueTuple.dll
+C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\bin\Debug\System.ValueTuple.xml
+C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.csprojAssemblyReference.cache
+C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.csproj.CoreCompileInputs.cache
+C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.csproj.CopyComplete
+C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.exe
+C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.pdb
