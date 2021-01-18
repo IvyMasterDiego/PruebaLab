@@ -360,6 +360,7 @@ namespace LabWork
                     }
                     break;
                 case "3":
+                    Console.Write("Escribe el id:");
                     var id = OnlyInt();
                     var person = Person.GetOnePerson(id)?.ToString();
                     if (person == null)

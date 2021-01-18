@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace OOP
 {
-    public sealed class Person
+    public sealed class Person:IComparable<Person>
     {
         public static List<Person> persons = new List<Person>();
 
@@ -136,6 +136,13 @@ namespace OOP
         {
             var eras = persons.RemoveAll(x => x.Id.Trim() == id.Trim());
             return eras;
+        }
+
+        public int CompareTo(Person other)
+        {
+            if (other == null)
+                return 1;
+            return this.Id.CompareTo(other.Id);
         }
     }
     public enum Gender
