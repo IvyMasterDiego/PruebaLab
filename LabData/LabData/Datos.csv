@@ -1,3 +1,4 @@
 Cedula,Nombre,Apellido,Ahorros,Contraseña,Data
-45678, juan, mateo,9.7, 0,635
-56743, mateo, pedro,78.6, 0,763
+45678, juan, mateo,9.7,635,0
+56743, mateo, pedro,78.6,763,0
+12121213123, diego, lobato,58, 0,1142

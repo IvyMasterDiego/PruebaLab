@@ -11,8 +11,8 @@ namespace LabWork
         public static string file;
         static void Main(string[] args)
         {
-            //file = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, args[0]);
-            file = @"C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\Datos.csv";
+            file = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, args[0]);
+            //file = @"C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\Datos.csv";
             var newFile = !(File.Exists(file));
             if (newFile)
             {
@@ -71,14 +71,14 @@ namespace LabWork
             Console.Write("Ahorros: ");
             var ahorros = DoubleOnly();
         generoinput:
-            Console.Write("Sexo M|F: ");
+            Console.Write("Sexo H|M: ");
             int genero;
             switch (Console.ReadLine().ToUpper())
             {
-                case "M":
+                case "H":
                     genero = 0;
                     break;
-                case "F":
+                case "M":
                     genero = 8;
                     break;
                 default:

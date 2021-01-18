@@ -122,7 +122,7 @@ namespace OOP
         {
             try
             {
-                var updating = persons.FindIndex(a => a.Id == this.Id);
+               var updating = persons.FindIndex(a => a.Id == this.Id);
 
                 persons[updating] = this;
                 return "Datos modificados correctamente";
