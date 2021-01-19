@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace OOP
 {
-    public sealed class Person:IComparable<Person>
+    public sealed class Person : IComparable<Person>
     {
         public static List<Person> persons = new List<Person>();
 
@@ -107,12 +107,12 @@ namespace OOP
                 else
                 {
                     persons.Add(this);
-                    return "Registro Guardado correctamente";
+                    return "Registro Guardado Correctamente";
                 }
             }
             catch (Exception)
             {
-                return "Ha Ocurrido un error";
+                return "Ha ocurrido un error";
             }
         }
         internal static Person GetOnePerson(string id)
@@ -122,7 +122,7 @@ namespace OOP
         {
             try
             {
-               var updating = persons.FindIndex(a => a.Id == this.Id);
+                var updating = persons.FindIndex(a => a.Id == this.Id);
 
                 persons[updating] = this;
                 return "Datos modificados correctamente";
@@ -137,13 +137,13 @@ namespace OOP
             var eras = persons.RemoveAll(x => x.Id.Trim() == id.Trim());
             return eras;
         }
-
         public int CompareTo(Person other)
         {
             if (other == null)
                 return 1;
             return this.Id.CompareTo(other.Id);
         }
+
     }
     public enum Gender
     {

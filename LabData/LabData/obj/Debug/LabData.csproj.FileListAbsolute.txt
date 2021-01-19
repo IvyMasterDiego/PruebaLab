@@ -18,3 +18,13 @@ C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.csproj
 C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.csproj.CopyComplete
 C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.exe
 C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.pdb
+C:\Users\diego\source\repos\PruebaLab\LabData\LabData\bin\Debug\LabData.exe.config
+C:\Users\diego\source\repos\PruebaLab\LabData\LabData\bin\Debug\LabData.exe
+C:\Users\diego\source\repos\PruebaLab\LabData\LabData\bin\Debug\LabData.pdb
+C:\Users\diego\source\repos\PruebaLab\LabData\LabData\bin\Debug\System.ValueTuple.dll
+C:\Users\diego\source\repos\PruebaLab\LabData\LabData\bin\Debug\System.ValueTuple.xml
+C:\Users\diego\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.csprojAssemblyReference.cache
+C:\Users\diego\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.csproj.CopyComplete
+C:\Users\diego\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.exe
+C:\Users\diego\source\repos\PruebaLab\LabData\LabData\obj\Debug\LabData.pdb

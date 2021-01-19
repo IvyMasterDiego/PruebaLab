@@ -11,8 +11,7 @@ namespace LabWork
         public static string file;
         static void Main(string[] args)
         {
-            //file = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, args[0]);
-            file = @"C:\Users\dlobato\source\repos\PruebaLab\LabData\LabData\Datos.csv";
+            file = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, args[0]);
             var newFile = !(File.Exists(file));
             if (newFile)
             {
